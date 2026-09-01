@@ -1,6 +1,6 @@
 local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/controlguess/givememorebeer/refs/heads/main/obfuscated/ui.lib.lua")()
 
-local win = lib:Window("Toyota",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl)
+local win = lib:Window("TOYOTAWARE",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl)
 
 local tab = win:Tab("Aimbot")
 local tab2 = win:Tab("Visuals")
@@ -386,7 +386,7 @@ tab:Dropdown("Hit Part", {"Head", "HumanoidRootPart", "Random"}, function(t)
     hitpart = t
 end)
 
-tab:Label("Thanks for using TitanLabs!")
+tab:Label("Thanks for using Toyota!")
 
 tab2:Toggle("Box ESP", boxesp, function(t)
     boxesp = t
